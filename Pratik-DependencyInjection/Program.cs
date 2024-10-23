@@ -1,6 +1,10 @@
+using Pratik_DependencyInjection.Concrete;
+using Pratik_DependencyInjection.Teacher;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<ITeacher, Teacher>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

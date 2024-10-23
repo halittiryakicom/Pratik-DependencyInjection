@@ -1,4 +1,6 @@
-﻿namespace Pratik_DependencyInjection.Teacher
+﻿using Pratik_DependencyInjection.Teacher;
+
+namespace Pratik_DependencyInjection.Concrete
 {
     public class Teacher : ITeacher
     {
